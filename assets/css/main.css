@@ -3943,6 +3943,45 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		.skills-container {
+            max-width: device-width;
+            margin: 2rem auto;
+            background: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+        }
+        .section-title {
+            text-align: center;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 0.5rem;
+        }
+        .category-title {
+            color: #000000;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .skills-list li {
+            background: #f0f0f0;
+            border-radius: 0.25rem;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            transition: background 0.2s;
+        }
+        .skills-list li:hover {
+            background: #d9d9d9;
+        }
+        .skills-list li strong {
+            color: #000000;
+            font-weight: 600;
+        }
+        .sub-skills {
+            margin-left: 1.5rem;
+            list-style-type: disc;
+        }
+
 /* Footer */
 
 	#footer {
