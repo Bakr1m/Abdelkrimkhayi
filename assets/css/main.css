@@ -2603,19 +2603,19 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2rem 2rem 0;
+			margin: auto;
 			top: 0.75rem;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 2rem 2rem;
+			margin: auto;
 			top: 0.75rem;
 		}
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: auto;
 			width: 100%;
 		}
 
@@ -2629,8 +2629,9 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			margin-left: auto;
+  			margin-right: auto;
+			width: 45%;
 		}
 
 			.image.main:first-child {
@@ -2644,11 +2645,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
-				margin: 2rem 0;
+				margin: auto;
 			}
 
 			.image.main {
-				margin: 2rem 0;
+				margin: auto;
 			}
 
 		}
